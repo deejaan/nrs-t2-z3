@@ -2,12 +2,19 @@
   <library name="lib">
     <CLASSES>
       <root url="file:///usr/share/openjfx/lib" />
+      <root url="file:///usr/lib/jvm/javafx-sdk-11.0.2/lib" />
     </CLASSES>
     <JAVADOC />
+    <NATIVE>
+      <root url="file:///usr/lib/jvm/javafx-sdk-11.0.2/lib" />
+    </NATIVE>
     <SOURCES>
       <root url="file:///usr/share/openjfx/lib" />
+      <root url="file:///usr/lib/jvm/javafx-sdk-11.0.2/lib" />
     </SOURCES>
+    <jarDirectory url="file:///usr/lib/jvm/javafx-sdk-11.0.2/lib" recursive="false" />
     <jarDirectory url="file:///usr/share/openjfx/lib" recursive="false" />
+    <jarDirectory url="file:///usr/lib/jvm/javafx-sdk-11.0.2/lib" recursive="false" type="SOURCES" />
     <jarDirectory url="file:///usr/share/openjfx/lib" recursive="false" type="SOURCES" />
   </library>
 </component>
